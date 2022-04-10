@@ -1,0 +1,9 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server-->browser: mains.js
+
+note over browser:
+browser executes javascript
+code which creates DOM
+end note
